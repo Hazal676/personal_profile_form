@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+.konteyner {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: white;
+    padding: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.1);
+}
+
+.row {
+    align-items: center;
+}
+
+body {
+    background-color: #f1f5f9;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+h1 {
+    color: #0f172a;
+    font-weight: 700;
+}
+
+h3 {
+    color: #0f172a;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-left: 4px solid #38bdf8;
+    padding-left: 10px;
+}
+
+label {
+    font-weight: 500;
+    color: #334155;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #cbd5e1;
+}
+
+.form-control:focus {
+    border-color: #38bdf8;
+    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2);
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+select {
+    height: 130px;
+}
+
+select option {
+    padding: 5px;
+}

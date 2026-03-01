@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="formum.css">
+</head>
+
+<body>
+
+    <div class="konteyner">
+        <form>
+            <h1 class="text-center mb-4">Hazal Kiş – Junior Developer</h1>
+            <h3>Kişisel Bilgiler</h3>
+            <div class="form-group row">
+                <div class="col-3"><label>Ad</label></div>
+                <div class="col-9"><input type="text" class="form-control" value="Hazal"></div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-3"><label>Soyad</label></div>
+                <div class="col-9"><input type="text" class="form-control" value="Kiş"></div>
+            </div>
+
+            <div class="form-group row"><!--yaşı hesaplat-->
+                <div class="col-3"><label>Yaş</label></div>
+                <div class="col-9"><input type="text" id="yas" class="form-control"></div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-3"><label>Mail</label></div>
+                <div class="col-9"><input type="email" value="hazalkis90@gmail.com" class="form-control"></div>
+            </div>
+
+            <h3>Mesleki Deneyim</h3>
+            <div class="form-group row">
+                <div class="col-3"><label>Yazılıma Giriş Tarihi</label></div>
+                <div class="col-9"><input type="date" class="form-control" value="2023-09-11"></div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-3"><label>Programlama Dilleri</label></div>
+                <div class="col-9">
+                    <select multiple class="form-control">
+
+                        <optgroup label="Programlama Dilleri">
+                            <option>Python</option>
+                            <option>C#</option>
+                            <option>Javascript</option>
+                            <option>Html</option>
+                            <option>Css</option>
+                            <option>Php</option>
+                        </optgroup>
+
+                        <optgroup label="Grafik">
+                            <option>Photoshop</option>
+                            <option>After Effects</option>
+                        </optgroup>
+                    </select>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="formum.js"></script>
+</body>
+
+</html>
