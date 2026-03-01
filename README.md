@@ -14,6 +14,8 @@ This project is a personal profile form created using HTML, CSS, Bootstrap and J
 - Bootstrap 4
 - JavaScript
 
-## Preview
+## 📸 Preview
 
-![Project Screenshot](preview.png)
+<p align="center">
+  <img src="preview.png" width="700"/>
+</p>
