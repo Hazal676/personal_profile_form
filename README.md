@@ -13,3 +13,7 @@ This project is a personal profile form created using HTML, CSS, Bootstrap and J
 - CSS3
 - Bootstrap 4
 - JavaScript
+
+## Preview
+
+![Project Screenshot](preview.png)
