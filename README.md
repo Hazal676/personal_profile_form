@@ -16,4 +16,4 @@ This project is a personal profile form created using HTML, CSS, Bootstrap and J
 
 ## Preview
 
-![Project Screenshot](preview.png)
+![Project Screenshot](preview/preview.png)
