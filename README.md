@@ -16,4 +16,4 @@ This project is a personal profile form created using HTML, CSS, Bootstrap and J
 
 ## Preview
 
-![Project Screenshot](preview/preview.png)
+![Project Screenshot](C:\Users\hazal\OneDrive\Masaüstü\personal_profile_form\preview\preview.png)
